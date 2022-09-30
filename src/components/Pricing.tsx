@@ -7,8 +7,8 @@ const Pricing = () => {
     <Box
       maxW="994px"
       margin="auto"
-      mt="-160px"
-      borderRadius="0.75rem"
+      mt="-40"
+      borderRadius="xl"
       overflow="hidden"
       boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
       textAlign="center"
@@ -16,30 +16,25 @@ const Pricing = () => {
     >
       <Flex>
         <Box bg="#F0EAFB" p="3.75rem">
-          <Text fontSize="2rem" fontWeight={800}>
+          <Text fontSize="xl" fontWeight="extrabold">
             Premium PRO
           </Text>
-          <Heading as="h3" fontSize="3.75rem" mt="1rem">
+          <Heading as="h3" fontSize="3.75rem" mt="4">
             $329
           </Heading>
-          <Text
-            color="#171923"
-            fontSize="1.125rem"
-            fontWeight={500}
-            mt="0.5rem"
-          >
+          <Text color="gray.900" fontSize="lg" fontWeight="medium" mt="2">
             billed just once
           </Text>
-          <Button colorScheme="purple" size="lg" w="282px" mt="1.5rem">
+          <Button colorScheme="purple" size="lg" w="282px" mt="6">
             Get Started
           </Button>
         </Box>
-        <Box p="3.75rem" fontSize="1.125rem" bg="white">
+        <Box p="3.75rem" fontSize="lg" bg="white">
           <Text textAlign="left">
             Access these features when you get this pricing package for your
             business.
           </Text>
-          <Stack as="ul" spacing="1.25rem" pt="1.5rem">
+          <Stack as="ul" spacing="5" pt="6">
             <PricingListItem>
               International calling and messaging API
             </PricingListItem>

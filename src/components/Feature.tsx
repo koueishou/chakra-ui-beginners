@@ -9,9 +9,9 @@ const Feature = (props: FeatureProps) => {
   const { icon, children, ...rest } = props;
 
   return (
-    <HStack {...rest} spacing="1.5rem">
-      <Icon as={icon} boxSize="3rem" />
-      <Text textAlign="left" fontSize="1.125rem" fontWeight={700}>
+    <HStack {...rest} spacing="6">
+      <Icon as={icon} boxSize="12" />
+      <Text textAlign="left" fontSize="lg" fontWeight="bold">
         {children}
       </Text>
     </HStack>

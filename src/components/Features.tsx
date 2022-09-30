@@ -9,8 +9,8 @@ import Feature from "./Feature";
 
 const Features = () => {
   return (
-    <Box maxW="1024px" m="auto" mt="3.75rem" mb="2rem" as="section">
-      <HStack px="3rem" spacing="1.25rem">
+    <Box maxW="1024px" m="auto" mt="3.75rem" mb="8" as="section">
+      <HStack px="12" spacing="5">
         <Feature icon={MoneyBackGuaranteeIcon}>
           30 days money back Guarantee
         </Feature>

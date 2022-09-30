@@ -5,17 +5,17 @@ const Header = () => {
   return (
     <Box
       as="section"
-      color="#F7FAFC"
-      bg="#6B46C1"
+      color="gray.50"
+      bg="purple.600"
       textAlign="center"
       pt="90px"
       pb="198px"
-      px="2rem"
+      px="8"
     >
-      <Heading fontWeight={800} fontSize="3rem" mb="1rem">
+      <Heading fontWeight="extrabold" fontSize="5xl" mb="4">
         Simple pricing for your business
       </Heading>
-      <Text fontWeight={500} fontSize="1.5rem">
+      <Text fontWeight="medium" fontSize="2xl">
         Plans that are carefully crafted to suit your business.
       </Text>
     </Box>

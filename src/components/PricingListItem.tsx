@@ -6,7 +6,7 @@ const PricingListItem = (props: StackProps) => {
   const { children, ...rest } = props;
 
   return (
-    <HStack as="li" spacing="1.25rem" {...rest}>
+    <HStack as="li" spacing="5" {...rest}>
       <Icon as={CheckIcon} w="1.375rem" h="1.375rem" />
       <Text>{children}</Text>
     </HStack>
