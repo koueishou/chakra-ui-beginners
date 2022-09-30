@@ -8,7 +8,7 @@ const PricingListItem = (props: StackProps) => {
   return (
     <HStack as="li" spacing="5" {...rest}>
       <Icon as={CheckIcon} w="1.375rem" h="1.375rem" />
-      <Text>{children}</Text>
+      <Text textAlign="left">{children}</Text>
     </HStack>
   );
 };
